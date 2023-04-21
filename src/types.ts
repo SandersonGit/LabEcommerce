@@ -14,7 +14,7 @@ export type Tproduct = {
     image_url: string
 }
 
-export type Tpurchase {
+export type Tpurchase = {
     id: string,
     buyer: string, 
     total_price: number,
